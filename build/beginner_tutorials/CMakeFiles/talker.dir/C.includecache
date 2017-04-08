@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pi/catkin_ws/src/beginner_tutorials/src/test.c
+stdio.h
+-
+iostream.h
+-
+test.h
+/home/pi/catkin_ws/src/beginner_tutorials/src/test.h
+
+/home/pi/catkin_ws/src/beginner_tutorials/src/test.h
+

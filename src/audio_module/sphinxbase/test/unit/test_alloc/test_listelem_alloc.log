@@ -1,0 +1,54 @@
+INFO: listelem_alloc.c(279): Linklist stats:
+INFO: listelem_alloc.c(287): elemsize 8, #alloc 0, #freed 0, #freelist 50
+INFO: listelem_alloc.c(288): Allocated blocks:
+INFO: listelem_alloc.c(291): 0x1a81030 (50 * 8 bytes)
+INFO: listelem_alloc.c(279): Linklist stats:
+INFO: listelem_alloc.c(287): elemsize 8, #alloc 60, #freed 0, #freelist 40
+INFO: listelem_alloc.c(288): Allocated blocks:
+INFO: listelem_alloc.c(291): 0x1a811f8 (50 * 8 bytes)
+INFO: listelem_alloc.c(291): 0x1a81030 (50 * 8 bytes)
+INFO: listelem_alloc.c(279): Linklist stats:
+INFO: listelem_alloc.c(287): elemsize 8, #alloc 600, #freed 0, #freelist 0
+INFO: listelem_alloc.c(288): Allocated blocks:
+INFO: listelem_alloc.c(291): 0x1a823c8 (50 * 8 bytes)
+INFO: listelem_alloc.c(291): 0x1a82200 (50 * 8 bytes)
+INFO: listelem_alloc.c(291): 0x1a82038 (50 * 8 bytes)
+INFO: listelem_alloc.c(291): 0x1a81e70 (50 * 8 bytes)
+INFO: listelem_alloc.c(291): 0x1a81ca8 (50 * 8 bytes)
+INFO: listelem_alloc.c(291): 0x1a81ae0 (50 * 8 bytes)
+INFO: listelem_alloc.c(291): 0x1a81918 (50 * 8 bytes)
+INFO: listelem_alloc.c(291): 0x1a81750 (50 * 8 bytes)
+INFO: listelem_alloc.c(291): 0x1a81588 (50 * 8 bytes)
+INFO: listelem_alloc.c(291): 0x1a813c0 (50 * 8 bytes)
+INFO: listelem_alloc.c(291): 0x1a81030 (50 * 8 bytes)
+INFO: listelem_alloc.c(291): 0x1a811f8 (50 * 8 bytes)
+INFO: listelem_alloc.c(279): Linklist stats:
+INFO: listelem_alloc.c(287): elemsize 8, #alloc 600, #freed 600, #freelist 600
+INFO: listelem_alloc.c(288): Allocated blocks:
+INFO: listelem_alloc.c(291): 0x1a823c8 (50 * 8 bytes)
+INFO: listelem_alloc.c(291): 0x1a82200 (50 * 8 bytes)
+INFO: listelem_alloc.c(291): 0x1a82038 (50 * 8 bytes)
+INFO: listelem_alloc.c(291): 0x1a81e70 (50 * 8 bytes)
+INFO: listelem_alloc.c(291): 0x1a81ca8 (50 * 8 bytes)
+INFO: listelem_alloc.c(291): 0x1a81ae0 (50 * 8 bytes)
+INFO: listelem_alloc.c(291): 0x1a81918 (50 * 8 bytes)
+INFO: listelem_alloc.c(291): 0x1a81750 (50 * 8 bytes)
+INFO: listelem_alloc.c(291): 0x1a81588 (50 * 8 bytes)
+INFO: listelem_alloc.c(291): 0x1a813c0 (50 * 8 bytes)
+INFO: listelem_alloc.c(291): 0x1a81030 (50 * 8 bytes)
+INFO: listelem_alloc.c(291): 0x1a811f8 (50 * 8 bytes)
+INFO: listelem_alloc.c(279): Linklist stats:
+INFO: listelem_alloc.c(287): elemsize 8, #alloc 1200, #freed 600, #freelist 0
+INFO: listelem_alloc.c(288): Allocated blocks:
+INFO: listelem_alloc.c(291): 0x1a823c8 (50 * 8 bytes)
+INFO: listelem_alloc.c(291): 0x1a82200 (50 * 8 bytes)
+INFO: listelem_alloc.c(291): 0x1a82038 (50 * 8 bytes)
+INFO: listelem_alloc.c(291): 0x1a81e70 (50 * 8 bytes)
+INFO: listelem_alloc.c(291): 0x1a81ca8 (50 * 8 bytes)
+INFO: listelem_alloc.c(291): 0x1a81ae0 (50 * 8 bytes)
+INFO: listelem_alloc.c(291): 0x1a81918 (50 * 8 bytes)
+INFO: listelem_alloc.c(291): 0x1a81750 (50 * 8 bytes)
+INFO: listelem_alloc.c(291): 0x1a81588 (50 * 8 bytes)
+INFO: listelem_alloc.c(291): 0x1a813c0 (50 * 8 bytes)
+INFO: listelem_alloc.c(291): 0x1a81030 (50 * 8 bytes)
+INFO: listelem_alloc.c(291): 0x1a811f8 (50 * 8 bytes)

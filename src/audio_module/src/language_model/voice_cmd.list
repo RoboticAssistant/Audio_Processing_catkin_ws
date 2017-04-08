@@ -1,0 +1,6 @@
+BACKWARD /1e-20/
+FORWARD /1e-20/
+STOP /1e-20/
+LEFT /1e-20/
+RIGHT /1e-20/
+MOVE /1e-20/
