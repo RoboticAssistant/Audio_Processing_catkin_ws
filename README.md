@@ -1,4 +1,4 @@
-We are implementing threading based application to avoid delays in the functionality. We’ll have 3 threads in our main application which are as follows:-
+We are implementing threading based application to avoid delays in the functionality. Weâ€™ll have 4 threads in our main application which are as follows:-
 
 
 Thread 1: (Hearing Thread)
@@ -18,3 +18,7 @@ Audio file is updated at every interval of 10 seconds.
 Converts the WAV file to RAW file.
 Fetches the PCM data from the RAW file and creates a data file.
 Plots the spectrum at runtime.(Currently we can get the sound spectrum by manually by generating the graph. We are figuring out a way to generate it on runtime.)
+
+Thread 4: (ROS Publisher Subscriber)
+Publish the data received from audio device.
+Listen to the data received from the master module (Video module in this case).
