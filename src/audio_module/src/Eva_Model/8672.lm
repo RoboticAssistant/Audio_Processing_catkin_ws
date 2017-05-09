@@ -1,0 +1,134 @@
+Language model created by QuickLM on Mon May  8 18:37:21 EDT 2017
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 25 sentences and 30 words
+
+\data\
+ngram 1=30
+ngram 2=53
+ngram 3=28
+
+\1-grams:
+-0.7952 </s> -0.3010
+-0.7952 <s> -0.2252
+-2.1931 ARE -0.2982
+-2.1931 BACKWARD -0.2252
+-2.1931 DOING -0.2252
+-2.1931 EVA -0.2252
+-2.1931 FORWARD -0.2252
+-2.1931 FOUR -0.2252
+-2.1931 GO -0.2252
+-2.1931 HEY -0.2252
+-2.1931 HOW -0.2252
+-2.1931 IS -0.2252
+-2.1931 LEFT -0.2252
+-2.1931 LOCATION -0.2252
+-2.1931 ME -0.2252
+-2.1931 MOVE -0.2252
+-2.1931 MY -0.2252
+-2.1931 ONE -0.2252
+-2.1931 RIGHT -0.2252
+-2.1931 START -0.2252
+-2.1931 STOP -0.2252
+-2.1931 TAKE -0.2982
+-2.1931 THE -0.2252
+-2.1931 THREE -0.2252
+-2.1931 TIME -0.2252
+-2.1931 TO -0.2252
+-2.1931 TWO -0.2252
+-2.1931 WEATHER -0.2252
+-2.1931 WHAT -0.2252
+-2.1931 YOU -0.2982
+
+\2-grams:
+-1.6990 <s> ARE 0.0000
+-1.6990 <s> BACKWARD 0.0000
+-1.6990 <s> EVA 0.0000
+-1.6990 <s> FORWARD 0.0000
+-1.6990 <s> FOUR 0.0000
+-1.6990 <s> GO 0.0000
+-1.6990 <s> HEY 0.0000
+-1.6990 <s> HOW 0.0000
+-1.6990 <s> IS 0.0000
+-1.6990 <s> LEFT 0.0000
+-1.6990 <s> LOCATION 0.0000
+-1.6990 <s> MOVE 0.0000
+-1.6990 <s> MY 0.0000
+-1.6990 <s> ONE 0.0000
+-1.6990 <s> RIGHT 0.0000
+-1.6990 <s> START 0.0000
+-1.6990 <s> STOP 0.0000
+-1.6990 <s> TAKE 0.0000
+-1.6990 <s> THE 0.0000
+-1.6990 <s> THREE 0.0000
+-1.6990 <s> TIME 0.0000
+-1.6990 <s> TO 0.0000
+-1.6990 <s> TWO 0.0000
+-1.6990 <s> WEATHER 0.0000
+-1.6990 <s> WHAT 0.0000
+-0.3010 ARE YOU 0.0000
+-0.3010 BACKWARD </s> -0.3010
+-0.3010 DOING </s> -0.3010
+-0.3010 EVA </s> -0.3010
+-0.3010 FORWARD </s> -0.3010
+-0.3010 FOUR </s> -0.3010
+-0.3010 GO </s> -0.3010
+-0.3010 HEY </s> -0.3010
+-0.3010 HOW </s> -0.3010
+-0.3010 IS </s> -0.3010
+-0.3010 LEFT </s> -0.3010
+-0.3010 LOCATION </s> -0.3010
+-0.3010 ME </s> -0.3010
+-0.3010 MOVE </s> -0.3010
+-0.3010 MY </s> -0.3010
+-0.3010 ONE </s> -0.3010
+-0.3010 RIGHT </s> -0.3010
+-0.3010 START </s> -0.3010
+-0.3010 STOP </s> -0.3010
+-0.3010 TAKE ME 0.0000
+-0.3010 THE </s> -0.3010
+-0.3010 THREE </s> -0.3010
+-0.3010 TIME </s> -0.3010
+-0.3010 TO </s> -0.3010
+-0.3010 TWO </s> -0.3010
+-0.3010 WEATHER </s> -0.3010
+-0.3010 WHAT </s> -0.3010
+-0.3010 YOU DOING 0.0000
+
+\3-grams:
+-0.3010 <s> ARE YOU
+-0.3010 <s> BACKWARD </s>
+-0.3010 <s> EVA </s>
+-0.3010 <s> FORWARD </s>
+-0.3010 <s> FOUR </s>
+-0.3010 <s> GO </s>
+-0.3010 <s> HEY </s>
+-0.3010 <s> HOW </s>
+-0.3010 <s> IS </s>
+-0.3010 <s> LEFT </s>
+-0.3010 <s> LOCATION </s>
+-0.3010 <s> MOVE </s>
+-0.3010 <s> MY </s>
+-0.3010 <s> ONE </s>
+-0.3010 <s> RIGHT </s>
+-0.3010 <s> START </s>
+-0.3010 <s> STOP </s>
+-0.3010 <s> TAKE ME
+-0.3010 <s> THE </s>
+-0.3010 <s> THREE </s>
+-0.3010 <s> TIME </s>
+-0.3010 <s> TO </s>
+-0.3010 <s> TWO </s>
+-0.3010 <s> WEATHER </s>
+-0.3010 <s> WHAT </s>
+-0.3010 ARE YOU DOING
+-0.3010 TAKE ME </s>
+-0.3010 YOU DOING </s>
+
+\end\

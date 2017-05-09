@@ -1,0 +1,8 @@
+prefix=/home/pi/catkin_ws/devel
+
+Name: test_talker
+Description: Description of test_talker
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/pi/catkin_ws/devel/lib 
+Requires: 

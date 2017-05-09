@@ -1,0 +1,9 @@
+forward
+backward
+left
+right
+move
+stop
+goto a
+goto b
+hey tubby

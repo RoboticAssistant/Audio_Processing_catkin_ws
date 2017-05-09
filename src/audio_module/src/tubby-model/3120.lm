@@ -1,0 +1,68 @@
+Language model created by QuickLM on Sat Apr 22 21:48:46 EDT 2017
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 9 sentences and 13 words
+
+\data\
+ngram 1=13
+ngram 2=20
+ngram 3=12
+
+\1-grams:
+-0.8239 </s> -0.3010
+-0.8239 <s> -0.2304
+-1.7782 A -0.2304
+-1.7782 B -0.2304
+-1.7782 BACKWARD -0.2304
+-1.7782 FORWARD -0.2304
+-1.4771 GOTO -0.2863
+-1.7782 HEY -0.2937
+-1.7782 LEFT -0.2304
+-1.7782 MOVE -0.2304
+-1.7782 RIGHT -0.2304
+-1.7782 STOP -0.2304
+-1.7782 TUBBY -0.2304
+
+\2-grams:
+-1.2553 <s> BACKWARD 0.0000
+-1.2553 <s> FORWARD 0.0000
+-0.9542 <s> GOTO 0.0000
+-1.2553 <s> HEY 0.0000
+-1.2553 <s> LEFT 0.0000
+-1.2553 <s> MOVE 0.0000
+-1.2553 <s> RIGHT 0.0000
+-1.2553 <s> STOP 0.0000
+-0.3010 A </s> -0.3010
+-0.3010 B </s> -0.3010
+-0.3010 BACKWARD </s> -0.3010
+-0.3010 FORWARD </s> -0.3010
+-0.6021 GOTO A 0.0000
+-0.6021 GOTO B 0.0000
+-0.3010 HEY TUBBY 0.0000
+-0.3010 LEFT </s> -0.3010
+-0.3010 MOVE </s> -0.3010
+-0.3010 RIGHT </s> -0.3010
+-0.3010 STOP </s> -0.3010
+-0.3010 TUBBY </s> -0.3010
+
+\3-grams:
+-0.3010 <s> BACKWARD </s>
+-0.3010 <s> FORWARD </s>
+-0.6021 <s> GOTO A
+-0.6021 <s> GOTO B
+-0.3010 <s> HEY TUBBY
+-0.3010 <s> LEFT </s>
+-0.3010 <s> MOVE </s>
+-0.3010 <s> RIGHT </s>
+-0.3010 <s> STOP </s>
+-0.3010 GOTO A </s>
+-0.3010 GOTO B </s>
+-0.3010 HEY TUBBY </s>
+
+\end\

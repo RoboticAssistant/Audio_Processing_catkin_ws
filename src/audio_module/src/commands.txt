@@ -1,0 +1,6 @@
+pocketsphinx_continuous -inmic yes -adcdev plughw:DEV=0,CARD=1
+
+pocketsphinx_batch -adcin yes -cepdir /home/pi/catkin_ws/src/audio_module/src/Eva_Model -cepext .wav -ctl arctic20.fileids -lm 2706.lm.bin -dict 2706.dic -hmm en-us-adapt -hyp test.hyp word_align.pl
+
+./word_align.pl arctic20.transcription test.hyp
+
