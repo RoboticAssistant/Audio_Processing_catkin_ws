@@ -354,6 +354,12 @@ swig2.0_DIR:PATH=swig2.0_DIR-NOTFOUND
 //The directory containing a CMake configuration file for swig.
 swig_DIR:PATH=swig_DIR-NOTFOUND
 
+//Value Computed by CMake
+test_talker_BINARY_DIR:STATIC=/home/pi/catkin_ws/build/test_talker
+
+//Value Computed by CMake
+test_talker_SOURCE_DIR:STATIC=/home/pi/catkin_ws/src/test_talker
+
 //The directory containing a CMake configuration file for xmlrpcpp.
 xmlrpcpp_DIR:PATH=/opt/ros/indigo/share/xmlrpcpp/cmake
 
@@ -459,7 +465,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=3
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=4
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

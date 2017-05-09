@@ -14,9 +14,9 @@ amixer $1 -Dhw:sndrpiwsp cset name='LHPF1 Coefficients' 240,3
 amixer $1 -Dhw:sndrpiwsp cset name='LHPF2 Coefficients' 240,3
 # Configure the Audio Interface and volume 0dB
 amixer $1 -Dhw:sndrpiwsp cset name='AIF1TX1 Input 1' LHPF1
-amixer $1 -Dhw:sndrpiwsp cset name='AIF1TX1 Input 1 Volume' 100#150
+amixer $1 -Dhw:sndrpiwsp cset name='AIF1TX1 Input 1 Volume' 30#150
 amixer $1 -Dhw:sndrpiwsp cset name='AIF1TX2 Input 1' LHPF2
-amixer $1 -Dhw:sndrpiwsp cset name='AIF1TX2 Input 1 Volume' 100#150
+amixer $1 -Dhw:sndrpiwsp cset name='AIF1TX2 Input 1 Volume' 30#150
 amixer $1 -Dhw:sndrpiwsp cset name='DMIC Switch' on
 
 

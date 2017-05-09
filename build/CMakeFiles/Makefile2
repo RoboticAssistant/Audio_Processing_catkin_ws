@@ -733,6 +733,24 @@ clean: audio_module/CMakeFiles/test_listen.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Directory level rules for directory test_talker
+
+# Convenience name for "all" pass in the directory.
+test_talker/all:
+
+.PHONY : test_talker/all
+
+# Convenience name for "clean" pass in the directory.
+test_talker/clean:
+
+.PHONY : test_talker/clean
+
+# Convenience name for "preinstall" pass in the directory.
+test_talker/preinstall:
+
+.PHONY : test_talker/preinstall
+
+#=============================================================================
 # Special targets to cleanup operation of make.
 
 # Special rule to run CMake to check the build system integrity.

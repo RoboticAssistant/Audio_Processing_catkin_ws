@@ -9,9 +9,13 @@
 /home/pi/catkin_ws/src/audio_module/src/audio_module.cpp
 pthread.h
 -
+signal.h
+-
 stdlib.h
 -
 sys/syscall.h
+-
+time.h
 -
 tts.h
 /home/pi/catkin_ws/src/audio_module/src/tts.h
@@ -20,6 +24,8 @@ stt.h
 ros/ros.h
 /home/pi/catkin_ws/src/audio_module/src/ros/ros.h
 iostream
+-
+vector
 -
 
 /home/pi/catkin_ws/src/audio_module/src/stt.cpp

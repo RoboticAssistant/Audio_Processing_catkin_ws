@@ -25,16 +25,25 @@ int stt_init()
 {
     char lm_file[500], dict_file[500], hmm_file[500], list_file[500];
 
-    sprintf(lm_file,"%slanguage_model/voice_cmd.lm",APP_DIR);
-    sprintf(dict_file,"%slanguage_model/voice_cmd.dic",APP_DIR);
-    sprintf(hmm_file,"%slanguage_model/en-us",APP_DIR);
-    sprintf(list_file,"%slanguage_model/voice_cmd.list",APP_DIR);
+    //sprintf(lm_file,"%slanguage_model/voice_cmd.lm",APP_DIR);
+    //sprintf(dict_file,"%slanguage_model/voice_cmd.dic",APP_DIR);
+    //sprintf(hmm_file,"%slanguage_model/en-us",APP_DIR);
+    //sprintf(list_file,"%slanguage_model/voice_cmd.list",APP_DIR);
+
+    //sprintf(lm_file,"%stubby-model/3120.lm.bin",APP_DIR);
+    //sprintf(dict_file,"%stubby-model/3120.dic",APP_DIR);
+    //sprintf(hmm_file,"%stubby-model/en-us-adapt",APP_DIR);
+
+    sprintf(lm_file,"%sEva_Model/8672.lm.bin",APP_DIR);
+    sprintf(dict_file,"%sEva_Model/8672.dic",APP_DIR);
+    sprintf(hmm_file,"%sEva_Model/en-us-adapt",APP_DIR);
 
     config = cmd_ln_init(NULL, ps_args(), TRUE,
                  "-hmm", hmm_file,
                  "-lm", lm_file,
                  "-dict",dict_file,
-		 "-kws",list_file,
+		 //"-kws",list_file,
+		 "-remove_noise", "yes",
 		 //"-verbose",false,
 		 //"-buffer_size", 100,
 		 //"-full_utt",false,
@@ -75,9 +84,10 @@ char const *recognize(ad_rec_t *ad,int16 *adbuf,uint8 *utt_started,uint8 *in_spe
             E_INFO("Listening...\n");
         }
 	
-	if(timer == 15)
+	if(timer == 30)
 	{
 		*in_speech = 0;
+		*utt_started = 0;
 		timer = 0;
 	}
 
@@ -87,7 +97,7 @@ char const *recognize(ad_rec_t *ad,int16 *adbuf,uint8 *utt_started,uint8 *in_spe
             ps_end_utt(ps);
             hyp = ps_get_hyp(ps, NULL );
             if (hyp != NULL) {
-                //printf("%s\n", hyp);
+                printf("%s\n\n\n", hyp);
 		//publish.data = hyp;
 		str = hyp;
                 fflush(stdout);
